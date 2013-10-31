@@ -1,17 +1,9 @@
-Responsive-Resume
+Responsive Resume
 =================
 
-_A single page responsive resume_
-
-
-Basic things to configure would be:
-- title 
-- meta description 
-- swap me.png 
-
-**Note** some headers and divs will be hidden on small viewports, uses the (hide-for-small) css class. 
+A single page responsive resume template 
 
 _This was built using the [foundation](http://foundation.zurb.com/ "Foundation") framework._
 
 ### Changelog
-Version 1: initial build
+Version 1: initial build using Foundation 1.0
