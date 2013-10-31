@@ -1,0 +1,69 @@
+html, body{
+  background: url('../images/bg.png') repeat !important;
+}
+a{
+  color: #ff0100 !important;
+}
+.resume{
+  background: #fff;
+  padding-top: 20px !important;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  box-shadow: 0 0 4px #eee;
+}
+  .contact{
+    color: #fff !important;
+    background: #ff0100 !important;
+    border: 1px solid #d60201 !important;
+  }
+    .contact a{
+      color: #1d1d1d !important;
+    }
+  .date{
+    line-height: 2em;
+    font-size: .5em !important;
+  }
+    .education .date{
+      line-height: 1em;
+      font-size: .7em !important;
+    }
+  .references img{
+    margin-bottom: -10px;
+    padding: 10px 10px 0 0;
+  }
+.footer{
+  padding-bottom: 30px !important;
+  background: #1d1d1d;
+}
+.twitter{
+  padding: 20px 0 !important;
+}
+  .twitter img{
+    padding-right: 10px;
+  }
+#tweets {
+  width:300px;
+  margin: 0; 
+  display: block;
+}
+  #tweets li {
+    list-style: none;
+    padding: 5px;
+    color:#FFFFFF;
+    border-bottom:1px solid #000000;
+    border-top:1px solid #353434;
+    line-height:150%;
+  }
+    #tweets li p{
+      width: 300px;
+      float: left;
+      margin: -50px 0 0 70px;
+    }
+    #tweets li.tweet_content_0 {
+      border-top:0px none;
+    }
+    #tweets li:last-child{
+      border-bottom:0px none; 
+    }
+#tweets .hash { color:#ccc; } 
+#tweets .reply { color:#ff0100; } 
